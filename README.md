@@ -1,4 +1,4 @@
-Welcome
-This is built from the Project: Recipes part of theOdinProject
-I am committing to bettering my front-end chops this year (2025)
-Please enjoy this and feel free to roast my code
+Welcome <br>
+This website is from <em>theOdinProject/lessons/foundations-recipes</em><br>
+Project name: Recipes - Foundations Course<br>
+Please enjoy this and feel free to roast my code<br>
