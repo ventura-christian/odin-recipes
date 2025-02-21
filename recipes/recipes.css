@@ -3,9 +3,13 @@
   width: -moz-fit-content;
   width: fit-content;
 }
-
+.stew_picture {
+  width: 400px;
+  height: 350px;
+}
 .stew_info {
-  width: 500px;
-  height: 400px;
-  text-align: left;
+  width: 400px;
+}
+.steps {
+  width: 400px;
 }
