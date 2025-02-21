@@ -1,4 +1,11 @@
+.introduction {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .stew_info {
-  width: "100px";
-  height: "100px";
+  width: 500px;
+  height: 400px;
+  text-align: left;
 }
