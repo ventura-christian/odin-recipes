@@ -1,3 +1,10 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
 .introduction {
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -8,8 +15,20 @@
   height: 350px;
 }
 .food_info {
-  width: 400px;
+  width: 700px;
 }
 .steps {
-  width: 400px;
+  width: 700px;
+}
+h1 {
+  text-align: center;
+  color: rgb(70, 180, 175);
+}
+button {
+  text-align: center;
+  color: steelblue;
+  background-color: rgb(245, 245, 245);
+  margin: 5px;
+  border-width: 2px;
+  border-color: rgb(245, 245, 245);
 }
