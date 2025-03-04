@@ -1,28 +1,15 @@
+* {
+border: 1px solid rgb(173, 255, 47);  
+}
 body {
   font-family: "Times New Roman", Times, serif;
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   font-size: 20px;
 }
-
-.introduction {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-.food_picture {
-  width: 400px;
-  height: 350px;
-}
-.food_info {
-  width: 700px;
-}
-.steps {
-  width: 700px;
-}
-h1 {
-  text-align: center;
-  color: rgb(70, 180, 175);
+.nav {
+  text-align: right;
+  
 }
 button {
   text-align: center;
@@ -31,4 +18,43 @@ button {
   margin: 5px;
   border-width: 2px;
   border-color: rgb(245, 245, 245);
+  font-weight: bold;
+}
+h1 {
+  text-align: left;
+}
+h2 {
+  text-align: center;
+  color: rgb(70, 180, 175);
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+}
+.ingredients {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: auto;
+  padding: 20px;
+}
+.introduction {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: auto;
+}
+.food_picture {
+  width: 400px;
+  height: 350px;
+}
+.food_description {
+  width: 700px;
+  padding: 20px;
+  font-weight: bold;
+}
+.steps {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+  padding-bottom: 20px;
 }
