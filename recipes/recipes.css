@@ -1,6 +1,6 @@
 * {
   font-family: "Times New Roman", Times, serif;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 
 body {
@@ -74,6 +74,14 @@ h2 {
   display: flex;
 }
 
+.recipes {
+  height: 400px;
+  margin: 30px 20px;
+  padding: 20px 40px;
+  flex: 1 1 10%;
+  flex-direction: column;
+}
+
 .recipes > img,
 h3 {
   padding: 5px;
@@ -88,13 +96,7 @@ h3 {
   font-weight: bold;
   font-size: 1em;
   margin: 10px;
-}
-
-.recipes {
-  flex: 1;
-  height: 400px;
-  margin: 30px 20px;
-  padding: 20px 40px;
+  color: rgb(255, 255, 255);
 }
 
 .menu {
